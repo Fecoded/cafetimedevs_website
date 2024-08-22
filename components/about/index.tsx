@@ -26,6 +26,7 @@ const About = () => {
             <Text
               css={{
                 fontWeight: "$semibold",
+                fontFamily: "$quicksand",
               }}
             >
               About Us
@@ -34,7 +35,7 @@ const About = () => {
               css={{
                 fontWeight: "$bold",
                 fontSize: "$2xl",
-                fontFamily: "$poppins",
+                fontFamily: "$quicksand",
                 lineHeight: "$sm",
 
                 "@lg": {
@@ -49,10 +50,10 @@ const About = () => {
             </Text>
             <Text
               css={{
-                fontFamily: "$poppins",
+                fontFamily: "$quicksand",
                 paddingTop: 30,
                 paddingBottom: 30,
-                lineHeight: "$sm",
+                lineHeight: "$md",
                 fontWeight: "$light",
 
                 "@lg": {
@@ -60,12 +61,7 @@ const About = () => {
                 },
               }}
             >
-              Lorem ipsum dolor sit amet consectetur. Nulla velit elementum
-              tellus duis cursus commodo. Luctus egestas vivamus ut ligula
-              convallis scelerisque blandit aliquet orci. Nunc fames a arcu
-              tincidunt iaculis. Nunc sit venenatis id eu elit vehicula gravida.
-              Integer pellentesque odio id fringilla. Morbi sem mauris tempus et
-              amet blandit risus
+              At the core of our work is a commitment to developing fast, efficient, and user-centered applications that deliver exceptional performance for our clients. We focus on understanding your users' needs, ensuring every product we create is intuitive, responsive, and tailored to meet your business goals. Our expertise allows us to build high-quality applications that not only enhance user experience but also drive success and growth for your business.
             </Text>
           </Box>
           <ExportedImage

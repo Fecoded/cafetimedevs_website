@@ -11,9 +11,10 @@ export const theme = createTheme({
       textPrimary: "#122841",
       textSecondary: "#4E5761",
       btnPrimary: "#3072B9",
+      headerBgColor: "#f1f4f8"
     },
     fonts: {
-      poppins: "'Poppins', sans-serif",
+      quicksand: "'Quicksand', sans-serif",
     },
   },
 });

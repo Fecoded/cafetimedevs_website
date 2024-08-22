@@ -1,39 +1,13 @@
-import { useRouter } from "next/router";
 import { Navbar, Link as CustomLink } from "@nextui-org/react";
 import ExportedImage from "next-image-export-optimizer";
 
 import Meta from "../meta";
 import { Image as CustomImage } from "../../assets/image/index";
 import { Layout } from "./layout";
+import { collapseItems } from "./utils";
 
 const Navbars = () => {
-  const collapseItems = [
-    {
-      id: 1,
-      link: "#home",
-      name: "Home",
-    },
-    {
-      id: 2,
-      link: "#services",
-      name: "Services",
-    },
-    {
-      id: 3,
-      link: "#projects",
-      name: "Projects",
-    },
-    {
-      id: 4,
-      link: "#about",
-      name: "About Us",
-    },
-    {
-      id: 5,
-      link: "#contact",
-      name: "Contact Us",
-    },
-  ];
+ 
 
   return (
     <div>

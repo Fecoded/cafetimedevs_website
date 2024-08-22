@@ -31,28 +31,7 @@ export const Footer = () => {
               height={40.49}
             />
           </Box>
-          <Box
-            css={{
-              display: "flex",
-              justifyContent: "center",
-
-              "@lg": {
-                justifyContent: "flex-start",
-              },
-            }}
-          >
-            <Text className={styles.textWhite} css={{ fontFamily: "#poppins" }}>
-              Privacy policy
-            </Text>
-            <Spacer x={1} />
-            <Text className={styles.textWhite} css={{ fontFamily: "#poppins" }}>
-              Terms of service
-            </Text>
-            <Spacer x={1} />
-            <Text className={styles.textWhite} css={{ fontFamily: "#poppins" }}>
-              About us
-            </Text>
-          </Box>
+         
           <Box>
             <Box
               css={{
@@ -92,7 +71,7 @@ export const Footer = () => {
         <Text
           className={styles.textWhite}
           css={{
-            fontFamily: "#poppins",
+            fontFamily: "$quicksand",
             textAlign: "center",
             paddingTop: "$10",
 
@@ -109,13 +88,13 @@ export const Footer = () => {
         <Text
           className={styles.textWhite}
           css={{
-            fontFamily: "$poppins",
+            fontFamily: "$quicksand",
             color: "$white",
             textAlign: "center",
             paddingTop: "$5",
           }}
         >
-          2023 Cafetimedevs. All copyrights reserved.
+          2024 Cafetimedevs. All copyrights reserved.
         </Text>
       </Container>
     </div>

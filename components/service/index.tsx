@@ -58,7 +58,7 @@ const Service = () => {
                 <Text
                   weight="bold"
                   css={{
-                    fontFamily: "$poppins",
+                    fontFamily: "$quicksand",
                     lineHeight: "$sm",
                     paddingTop: "$8",
                     fontSize: "$lg",
@@ -68,7 +68,7 @@ const Service = () => {
                 </Text>
                 <Text
                   css={{
-                    fontFamily: "$poppins",
+                    fontFamily: "$quicksand",
                     lineHeight: "$sm",
                     paddingTop: "$8",
                     color: "$textSecondary",
@@ -100,7 +100,7 @@ const Service = () => {
                 <Text
                   weight="bold"
                   css={{
-                    fontFamily: "$poppins",
+                    fontFamily: "$quicksand",
                     lineHeight: "$sm",
                     paddingTop: "$8",
                     fontSize: "$lg",
@@ -110,7 +110,7 @@ const Service = () => {
                 </Text>
                 <Text
                   css={{
-                    fontFamily: "$poppins",
+                    fontFamily: "$quicksand",
                     lineHeight: "$sm",
                     paddingTop: "$8",
                     color: "$textSecondary",
@@ -144,7 +144,7 @@ const Service = () => {
                 <Text
                   weight="bold"
                   css={{
-                    fontFamily: "$poppins",
+                    fontFamily: "$quicksand",
                     lineHeight: "$sm",
                     paddingTop: "$8",
                     fontSize: "$lg",
@@ -154,7 +154,7 @@ const Service = () => {
                 </Text>
                 <Text
                   css={{
-                    fontFamily: "$poppins",
+                    fontFamily: "$quicksand",
                     lineHeight: "$sm",
                     paddingTop: "$8",
                     color: "$textSecondary",
@@ -188,7 +188,7 @@ const Service = () => {
                 <Text
                   weight="bold"
                   css={{
-                    fontFamily: "$poppins",
+                    fontFamily: "$quicksand",
                     lineHeight: "$sm",
                     paddingTop: "$8",
                     fontSize: "$lg",
@@ -198,7 +198,7 @@ const Service = () => {
                 </Text>
                 <Text
                   css={{
-                    fontFamily: "$poppins",
+                    fontFamily: "$quicksand",
                     lineHeight: "$sm",
                     paddingTop: "$8",
                     color: "$textSecondary",
@@ -232,7 +232,7 @@ const Service = () => {
                 <Text
                   weight="bold"
                   css={{
-                    fontFamily: "$poppins",
+                    fontFamily: "$quicksand",
                     lineHeight: "$sm",
                     paddingTop: "$8",
                     fontSize: "$lg",
@@ -242,7 +242,7 @@ const Service = () => {
                 </Text>
                 <Text
                   css={{
-                    fontFamily: "$poppins",
+                    fontFamily: "$quicksand",
                     lineHeight: "$sm",
                     paddingTop: "$8",
                     color: "$textSecondary",
@@ -259,6 +259,7 @@ const Service = () => {
             <Text
               css={{
                 fontWeight: "$semibold",
+                 fontFamily: "$quicksand",
               }}
             >
               Our Service
@@ -267,7 +268,7 @@ const Service = () => {
               css={{
                 fontWeight: "$bold",
                 fontSize: "$2xl",
-                fontFamily: "$poppins",
+                fontFamily: "$quicksand",
                 lineHeight: "$sm",
 
                 "@lg": {
@@ -281,10 +282,10 @@ const Service = () => {
             </Text>
             <Text
               css={{
-                fontFamily: "$poppins",
+                fontFamily: "$quicksand",
                 paddingTop: 30,
                 paddingBottom: 30,
-                lineHeight: "$sm",
+                lineHeight: "$md",
                 fontWeight: "$light",
 
                 "@lg": {
@@ -292,12 +293,7 @@ const Service = () => {
                 },
               }}
             >
-              Lorem ipsum dolor sit amet consectetur. Nulla velit elementum
-              tellus duis cursus commodo. Luctus egestas vivamus ut ligula
-              convallis scelerisque blandit aliquet orci. Nunc fames a arcu
-              tincidunt iaculis. Nunc sit venenatis id eu elit vehicula gravida.
-              Integer pellentesque odio id fringilla. Morbi sem mauris tempus et
-              amet blandit risus
+              We work closely with you to develop a strong, cohesive brand identity that resonates with your audience across all platforms. Our goal is to create an aesthetic that reflects your vision and sets your business apart with a memorable and professional presence.
             </Text>
           </div>
         </Flex>

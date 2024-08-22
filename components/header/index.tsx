@@ -11,7 +11,7 @@ const Headers = () => {
     <div
       id="home"
       style={{
-        background: theme?.colors.primary.value,
+        background: "#f1f4f8",
       }}
     >
       <Container md>
@@ -35,7 +35,7 @@ const Headers = () => {
             <Text
               css={{
                 color: "$textPrimary",
-                fontFamily: "$poppins",
+                fontFamily: "$quicksand",
                 fontWeight: "$bold",
                 fontSize: "$4xl",
 
@@ -50,8 +50,8 @@ const Headers = () => {
             <Text
               weight="normal"
               css={{
-                color: "$textPrimary",
-                fontFamily: "$poppins",
+                color: "$btnPrimary",
+                fontFamily: "$quicksand",
                 marginTop: "-20px",
                 fontSize: "$4xl",
 
@@ -76,10 +76,10 @@ const Headers = () => {
             </div>
             <Text
               css={{
-                fontFamily: "$poppins",
+                fontFamily: "$quicksand",
                 paddingTop: 30,
                 paddingBottom: 30,
-                lineHeight: "$sm",
+                lineHeight: "$md",
                 fontWeight: "$light",
 
                 "@lg": {
@@ -87,12 +87,7 @@ const Headers = () => {
                 },
               }}
             >
-              Lorem ipsum dolor sit amet consectetur. Nulla velit elementum
-              tellus duis cursus commodo. Luctus egestas vivamus ut ligula
-              convallis scelerisque blandit aliquet orci. Nunc fames a arcu
-              tincidunt iaculis. Nunc sit venenatis id eu elit vehicula gravida.
-              Integer pellentesque odio id fringilla. Morbi sem mauris tempus et
-              amet blandit risus
+              Bring your ideas to life with our comprehensive software development services. From concept to deployment, we provide tailored solutions that ensure your software is built efficiently and launched seamlessly. Partner with us for reliable, scalable, and user-focused software that drives your business forward.
             </Text>
             <div className={styles.flex}>
               <Button

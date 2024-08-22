@@ -44,16 +44,16 @@ export const Contact = () => {
                   css={{
                     fontSize: "$sm",
                     fontWeight: "$medium",
-                    fontFamily: "$poppins",
+                    fontFamily: "$quicksand",
                   }}
                 >
                   Contact
                 </Text>
                 <Text
                   css={{
-                    fontSize: "$3xl",
+                    fontSize: "$5xl",
                     fontWeight: "$semibold",
-                    fontFamily: "$poppins",
+                    fontFamily: "$quicksand",
                     lineHeight: "$sm",
                   }}
                 >
@@ -62,15 +62,14 @@ export const Contact = () => {
                 </Text>
                 <Text
                   css={{
-                    fontFamily: "$poppins",
-                    fontWeight: "$light",
+                    fontFamily: "$quicksand",
+                    fontWeight: "$medium",
                     lineHeight: "$sm",
                     paddingTop: "$10",
+                    fontSize: "$2xl",
                   }}
                 >
-                  Lorem ipsum dolor sit amet consectetur.
-                  <br /> Nulla velit elementum tellus duis cursus <br />{" "}
-                  commodo. Luctus egestas vivamus ut ligula
+                  +2348167163048, +2348168343821
                 </Text>
               </Box>
             </Grid>
@@ -107,6 +106,7 @@ export const Contact = () => {
                       borderRadius: 5,
                       fontSize: "$sm",
                       fontWeight: "$normal",
+                       fontFamily: "$quicksand",
                       zIndex: 1,
 
                       "@lg": {

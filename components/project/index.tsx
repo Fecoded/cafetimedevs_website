@@ -4,31 +4,10 @@ import { DivderIcon } from "../../assets/svg";
 import { Box } from "./styled";
 import styles from "../../styles/Home.module.css";
 import { Image as CustomImage } from "../../assets/image";
+import { list } from "./utils";
 
 const Project = () => {
-  const list = [
-    {
-      id: 1,
-      title: "3rdRetail",
-      body: "3rdretail Africa is a B2B marketplace that connects Brand to resellers and vise versa.",
-      imageUrl: "/assets/3rdRetail.png",
-      link: "https://3rdretail.com",
-    },
-    {
-      id: 2,
-      title: "Frontline  Builders",
-      body: "Frontline Builders is a trusted name in delivering best in class corporate, residential and fit for purpose properties.",
-      imageUrl: "/assets/FrontlineBuilders.png",
-      link: "https://frontlinebuilderslimited.com",
-    },
-    {
-      id: 2,
-      title: "Ogasolo",
-      body: "Ogasolo is a web application for SME’s to manage day to day business activities.",
-      imageUrl: "/assets/Ogasolo.png",
-      link: "https://oga.ogaoslo.cafetimedevs.com",
-    },
-  ];
+
 
   return (
     <Box
@@ -75,7 +54,7 @@ const Project = () => {
             css={{
               fontWeight: "$bold",
               fontSize: "$2xl",
-              fontFamily: "$poppins",
+              fontFamily: "$quicksand",
               lineHeight: "$sm",
 
               "@lg": {
@@ -89,7 +68,7 @@ const Project = () => {
               css={{
                 fontWeight: "$bold",
                 fontSize: "$2xl",
-                fontFamily: "$poppins",
+                fontFamily: "$quicksand",
                 lineHeight: "$sm",
 
                 "@lg": {
@@ -102,7 +81,7 @@ const Project = () => {
           </Text>
           <Text
             css={{
-              fontFamily: "$poppins",
+              fontFamily: "$quicksand",
               paddingTop: 30,
               paddingBottom: 30,
               lineHeight: "$sm",
@@ -113,8 +92,7 @@ const Project = () => {
               },
             }}
           >
-            Lorem ipsum dolor sit amet consectetur. Nulla velit elementum tellus
-            duis cursus commodo. Luctus egestas vivamus ut ligula
+            Explore the diverse range of software projects we've engineered, <br /> each crafted with precision and innovation.
           </Text>
         </Box>
 
@@ -135,13 +113,13 @@ const Project = () => {
                 <Card.Body css={{ justifyItems: "flex-start" }}>
                   <Box>
                     <Text
-                      css={{ fontFamily: "$poppins", fontWeight: "$semibold" }}
+                      css={{ fontFamily: "$quicksand", fontWeight: "$semibold", lineHeight: "$1xl" }}
                     >
                       {item.title}
                     </Text>
                     <Text
                       css={{
-                        fontFamily: "$poppins",
+                        fontFamily: "$quicksand",
                         color: "$accents7",
                         fontWeight: "$light",
                         fontSize: "$sm",
@@ -154,11 +132,15 @@ const Project = () => {
                   </Box>
                 </Card.Body>
                 <Card.Divider />
+                {item.link &&
+                
                 <Card.Footer>
                   <Link
                     href={item.link}
+                    target="_blank"
+                    
                     css={{
-                      fontFamily: "$poppins",
+                      fontFamily: "$quicksand",
                       color: "$ctd_primary_color",
                       fontWeight: "$light",
                       fontSize: "$sm",
@@ -170,6 +152,7 @@ const Project = () => {
                     Explore
                   </Link>
                 </Card.Footer>
+                }
               </Card>
             </Grid>
           ))}
